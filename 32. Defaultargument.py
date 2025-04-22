@@ -16,14 +16,14 @@
 
 #------------> COUNT UP TIMER
 
-import time 
+import time #importing a module name time
 
 # def count(start, end):
 def count(end, start = 0):
     for x in reversed(range(start , end+1)): # we used end+1 because second one is exclusive like when we want to go 1,10 we write 1,11
         print(x)
         time.sleep(1)
-    print("Done!")
+    print("Done!!")
 count(20,10)     
 
 
