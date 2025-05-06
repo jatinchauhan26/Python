@@ -35,8 +35,8 @@
 
 #-------- example 4
 num = int(input("enter any number"))
-while num < 1 or num > 10:
+while num < 1 or num >25:
     print(f"{num} num is not valid")
-    num = int(input("enter a number between 1-10"))
+    num = int(input("enter a number between 1-25"))
     
 print(f"your number is {num}")
